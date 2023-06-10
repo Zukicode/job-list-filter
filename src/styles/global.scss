@@ -1,0 +1,32 @@
+@use './font';
+@use './normalize';
+
+:root {
+	--cyan: hsl(180, 29%, 50%);
+	--white: hsl(0, 0%, 100%);
+	--bg: hsl(180, 52%, 96%);
+	--filter-tablet: hsl(180, 31%, 95%);
+	--gray: hsl(180, 8%, 52%);
+	--dark-gray: hsl(180, 14%, 20%);
+}
+
+body {
+	background-color: var(--bg);
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--cyan);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--dark-gray);
+}

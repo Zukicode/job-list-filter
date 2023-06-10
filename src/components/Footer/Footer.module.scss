@@ -1,0 +1,17 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: var(--cyan);
+	border-radius: 20px;
+
+	p {
+		color: var(--white);
+
+		a {
+			color: var(--dark-gray);
+			font-weight: 700;
+		}
+	}
+}

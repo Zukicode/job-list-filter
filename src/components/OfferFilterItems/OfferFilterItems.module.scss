@@ -1,0 +1,25 @@
+.filter {
+	padding: 10px;
+	gap: 5px;
+	border-radius: 4px;
+	background: var(--filter-tablet);
+	transition: all 0.4s;
+	user-select: none;
+
+	&:hover {
+		transition: all 0.4s;
+		cursor: pointer;
+		background: var(--cyan);
+
+		p {
+			transition: all 0.4s;
+			color: var(--white);
+		}
+	}
+
+	p {
+		transition: all 0.4s;
+		color: var(--cyan);
+		font-weight: 700;
+	}
+}
